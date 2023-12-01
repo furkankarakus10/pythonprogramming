@@ -18,6 +18,7 @@ with open("p1.txt","r",encoding="utf-8") as file:
 
 
 
+
     harfler_kumesi = set()
 
     for i in harfler:

@@ -33,6 +33,7 @@ class Dosya():
             print("********************************")
 
 
+
     def kelime_frekansı(self):
 
         kelime_sözlük = dict()

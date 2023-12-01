@@ -10,11 +10,3 @@ with open("siir.txt","r",encoding="utf-8") as file:
 
     print(kelime)
 
-
-
-
-
-
-
-
-54154

@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="executionMode" value="BINARY" />
     <option name="pathToExecutable" value="C:\Users\furkan.karakus\AppData\Local\anaconda3\Scripts\black.exe" />
-    <option name="sdkUUID" value="68ca63ff-b9f6-47d7-adbc-cabb36b45674" />
+    <option name="sdkName" value="furkanenv" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="furkanenv" project-jdk-type="Python SDK" />
 </project>

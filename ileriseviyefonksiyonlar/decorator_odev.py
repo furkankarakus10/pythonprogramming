@@ -1,28 +1,40 @@
+def ekstra(fonk):
 
+    def ekstra_ozellik(sayilar):
+        print("Mükemmel Sayılar")
+        for sayi in sayilar:
+            toplam = 0
+            i = 1
+            while (i<sayi):
+                if (sayi % i == 0):
+                    toplam += i
+                i += 1
+            if (toplam == sayi):
+                print(sayi)
+
+        fonk(sayilar)
+
+    return ekstra_ozellik
+
+
+
+@ekstra
 def asalsayilar(sayilar):
 
-    asalolan = []
-    asalolmayanlar = []
+    print("Asal Sayılar...")
 
     for sayi in sayilar:
 
-        if (sayi == 1):
+        i = 2
 
-            asalolan.append(sayi)
+        say = 0
 
-        elif (sayi == 2):
+        while (i < sayi):
+            if (sayi % i == 0):
+                say += 1
+            i += 1
 
-            asalolmayanlar.append(sayi)
+        if (say == 0):
+            print(sayi)
 
-        else:
-
-            for i in range(2,sayi):
-
-                if (sayi % i != 0 ):
-
-                    asalolan.append(sayi)
-    print(asalolan)
-
-    return asalolan
-
-asalsayilar([1,2,3,4,5,6,7,8,9,10])
+asalsayilar([1,2,3,4,5,6,7,8,9,10,11,12,13,14])
